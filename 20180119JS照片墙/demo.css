@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    background-color:rgb(232,227,218);
+}
+.wrapper{
+    width:100%;
+}
+.wrapper-ul{
+    width:80%;
+    height:80%;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    perspective:700px;
+}
+.wrapper-ul li{
+    transform-style:preserve-3d;
+    position:absolute;
+    background-color:#fff;
+}
